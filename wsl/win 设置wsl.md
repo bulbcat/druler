@@ -25,6 +25,8 @@ youuser            ALL=(ALL)                NOPASSWD: ALL
 
 
 
+
+
 ## 替换阿里源
 
 替换
@@ -76,9 +78,45 @@ sudo service ssh --full-restart
 
 
 
+## 配置ssh 免密
+
+WSL 中由于与win共享端口，所以wsl 的22端口会被win占用，需要向上面一样修改 wsl 的ssh 端口，2222
+
+对应的生成key 
+
+```shell
+ssh-keygen -t rsa
+```
+
+copy 对应key 时需要指定对应 端口
+
+```shell
+ssh-copy-id -p 2222 localhost
+```
+
+
+
+安装hadoop 是由于使用 2222 端口连接，
+
+需要在 hadoop-env.sh 中添加如下内容
+
+```shell
+export HADOOP_SSH_OPTS="-p 2222"
+```
+
+
+
+
+
+
+
 ## 修改ubuntu 的dash shell 为 bash
 
+```shell
 sudo dpkg-reconfigure dash 
+```
+
+
 
 选no
 
@@ -163,7 +201,23 @@ git fetch --unshallow
 
 
 
+## 开启chmod
 
+
+sudo umount /mnt/c
+sudo mount -t drvfs C: /mnt/c -o metadata
+
+
+关闭所有bash，重新打开即可
+
+sudo vim /etc/wsl.conf
+
+```
+[automount]
+enabled = true
+options = "metadata,umask=22,fmask=11"
+mountFsTab = false
+```
 
 
 
@@ -171,10 +225,41 @@ git fetch --unshallow
 
 apt 直接装
 
+装完要一堆设置（网上找吧，大致需要 mysql admin 进去配置密码，开启普通用户的权限，一般还要改改密钥等级，长度之类的）
+
 
 
 ```bash
 echo $ss
 mkdir -p 
+```
+
+
+
+## 装atlas 需要node
+
+
+
+
+
+
+
+暂时不太明白 maven 里套 node 的逻辑
+
+里面需要下载 node 时 node.org 极慢 
+
+使用国内镜像 下载
+
+https://npm.taobao.org/mirrors/node/v8.9.0/
+
+
+
+
+
+安装npm （用root 吧）
+
+```shell
+apt-get update
+apt install npm
 ```
 
