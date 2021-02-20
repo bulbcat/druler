@@ -3,7 +3,12 @@
     "pluginsConfig": {
     	"disqus": {
     		"shortName": "druler"
-    	}
+    	},
+
+    "theme-default": {
+        "showLevel": true
+    }
+
   }	
 }
 
