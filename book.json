@@ -1,9 +1,0 @@
-{
-    "plugins": ["splitter","-lunr","mermaid-gb3","chapter-fold","expandable-chapters","expandable-chapters-small","-search", "search-pro","back-to-top-button"],
-    "pluginsConfig": {
-    	"disqus": {
-    		"shortName": "druler"
-    	}
-  }	
-}
-

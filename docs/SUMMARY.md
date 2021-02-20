@@ -1,5 +1,80 @@
 # Your Book Title
 
+- Book
+  - 知识笔记
+    - IDE
+      - [Idea](_book/知识笔记/IDE/idea/idea.md)
+      - [Vscode](_book/知识笔记/IDE/vscode/vscode.md)
+    - Java
+      - Maven
+        * [maven编译换行符问题](_book/知识笔记/java/maven/maven编译换行符问题.md)
+      - [Spring](_book/知识笔记/java/spring/spring.md)
+    - Linux
+      - [Ftp](_book/知识笔记/linux/ftp/ftp.md)
+      - Kereros
+        * [cdh安装kerberos](_book/知识笔记/linux/kereros/cdh安装kerberos.md)
+      - [LDAP](_book/知识笔记/linux/LDAP/LDAP.md)
+      * [开启图形化页面](_book/知识笔记/linux/开启图形化页面.md)
+      * [离线环境使用yum](_book/知识笔记/linux/离线环境使用yum.md)
+      * [软链接](_book/知识笔记/linux/软链接.md)
+    - Web
+      - [Html](_book/知识笔记/web/html/html.md)
+        * [基础概念](_book/知识笔记/web/html/基础概念.md)
+    - 办公软件
+      - Excel
+        * [目录导航宏](_book/知识笔记/办公软件/excel/目录导航宏.md)
+    - 大数据组件
+      - Hive
+        * [Hive On Spark](_book/知识笔记/大数据组件/hive/hive_on_spark.md)
+        * [Hive On Tez](_book/知识笔记/大数据组件/hive/hive_on_tez.md)
+        * [Hive Tips](_book/知识笔记/大数据组件/hive/hive-Tips.md)
+        * [hive基础](_book/知识笔记/大数据组件/hive/hive基础.md)
+        * [表结构导出](_book/知识笔记/大数据组件/hive/表结构导出.md)
+      - 任务调度
+        - [Etljc](_book/知识笔记/大数据组件/任务调度/etljc/etljc.md)
+      - 存储
+        - [Hdfs](_book/知识笔记/大数据组件/存储/hdfs/hdfs.md)
+          * [cdh-hdfs开启simple权限认证](_book/知识笔记/大数据组件/存储/hdfs/cdh-hdfs开启simple权限认证.md)
+          * [nn QJM问题](_book/知识笔记/大数据组件/存储/hdfs/nn QJM问题.md)
+          * [Orc](_book/知识笔记/大数据组件/存储/hdfs/orc.md)
+      - 搜索
+        - Es
+          * [Elasticsearch](_book/知识笔记/大数据组件/搜索/es/elasticsearch.md)
+      - 数据安全与权限管理
+        * [Kerberos](_book/知识笔记/大数据组件/数据安全与权限管理/kerberos.md)
+        * [Ldap](_book/知识笔记/大数据组件/数据安全与权限管理/ldap.md)
+        * [多租户](_book/知识笔记/大数据组件/数据安全与权限管理/多租户.md)
+        * [数据探查](_book/知识笔记/大数据组件/数据安全与权限管理/数据探查.md)
+        * [数据质量管理-griffin](_book/知识笔记/大数据组件/数据安全与权限管理/数据质量管理-griffin.md)
+      - 数据采集与传输
+        - [Sqoop](_book/知识笔记/大数据组件/数据采集与传输/sqoop/sqoop.md)
+      - 架构设计
+        * [oppo实时大数据平台衍进](_book/知识笔记/大数据组件/架构设计/oppo实时大数据平台衍进.md)
+      - 计算引擎
+        - Mr
+          * [Mapreduce](_book/知识笔记/大数据组件/计算引擎/mr/mapreduce.md)
+        - [Spark](_book/知识笔记/大数据组件/计算引擎/spark/spark.md)
+      - 资源调度
+        - Yarn
+          * [cdh yarn 配置](_book/知识笔记/大数据组件/资源调度/yarn/cdh yarn 配置.md)
+          * [yarn-cdh队列隔离](_book/知识笔记/大数据组件/资源调度/yarn/yarn-cdh队列隔离.md)
+    - 版本管理
+      - [Git](_book/知识笔记/版本管理/git/git.md)
+        * [gitbash中文异常](_book/知识笔记/版本管理/git/gitbash中文异常.md)
+      - 行内cc
+        * [出版本](_book/知识笔记/版本管理/行内cc/出版本.md)
+    - [甘特图](_book/知识笔记/甘特图/甘特图.md)
+    - 知识管理
+      - [Gitbook](_book/知识笔记/知识管理/gitbook/gitbook.md)
+      - Mermaid
+        * [甘特图_Gantt](_book/知识笔记/知识管理/mermaid/甘特图_Gantt.md)
+      - Typora
+        * [Ppt Demo](_book/知识笔记/知识管理/typora/ppt_demo.md)
+        * [typora配置](_book/知识笔记/知识管理/typora/typora配置.md)
+    - 网络协议
+      - [Postman](_book/知识笔记/网络协议/postman/postman.md)
+      - [Rest](_book/知识笔记/网络协议/rest/rest.md)
+    * [学习路线图](_book/知识笔记/学习路线图.md)
 - 知识笔记
   - IDE
     - [Idea](知识笔记/IDE/idea/idea.md)
